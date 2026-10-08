@@ -46,14 +46,20 @@ public class Main {
     System.out.println();
 
     scanner.close();
+    // printf: format output
+    // %[flag][width][.precision][specifier-character]
+    // [flag]: + , ( space
+    // [width]: zero %04d, number %4d add space, negative number
+    
     // %d: byte, short, int, long
     // %f: float, double
     // %s: String
     // %c: char
     // %b
-    // %n: xuong dong
+    // %n, \n: new line
     // %%: %
     // %e: 1.234560e+03
     // %x: hexa
+    // Numpad, Alt + 0178 = ²
   }
 }
