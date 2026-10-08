@@ -22,5 +22,17 @@ public class Main {
     }
 
     scanner.close();
+    // String
+    // .length()
+    // .charAt()
+    // .indexOf("")
+    // .lastIndexOf("")
+    // .toUpperCase()
+    // .toLowerCase()
+    // .trim()
+    // .replace("","")
+    // .isEmpty()
+    // .contains("")
+    // .equalsIgnoreCase("")
   }
 }
