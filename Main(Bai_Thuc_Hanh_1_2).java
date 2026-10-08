@@ -33,7 +33,7 @@ public class Main {
       result += arr[i] * Math.pow(x, i);
     }
 
-    // System.out.printf("f(%d) = %.2f%n", x, result); // f(2) = 12.00 xuong dong
+    // System.out.printf("f(%d) = %.2f%n", x, result); // f(2) = 12.00
 
     // f(2) = 1*2^2 + 3*2^1 + 2*2^0
     System.out.printf("f(%d) = ", x);
@@ -43,8 +43,17 @@ public class Main {
         System.out.print(" + ");
       }
     }
-    System.out.println(); // xuong dong
+    System.out.println();
 
     scanner.close();
+    // %d: byte, short, int, long
+    // %f: float, double
+    // %s: String
+    // %c: char
+    // %b
+    // %n: xuong dong
+    // %%: %
+    // %e: 1.234560e+03
+    // %x: hexa
   }
 }
